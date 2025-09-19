@@ -75,5 +75,9 @@
     },
     "minecraft": {
         "APIKEY": ""
+    },
+     "sing": {
+        "YOUTUBE_API": "AIzaSyDAiwFBGnV6wbOe3UPY8h61vRzxSgxRa_g",
+        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
     }
 }
