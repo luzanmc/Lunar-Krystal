@@ -37,7 +37,7 @@ module.exports = function ({ api }) {
                 var time = moment.tz("Asia/Ho_Chi_minh").format("HH:mm:ss DD/MM/YYYY")
                 if (get_minutes_of_time(new Date(timestemp * 1000), new Date()) <= 1) {
                     var msg = "" + 
-                        "=== 『 🌸 𝗡𝗢𝗧𝗜𝗙𝗜𝗖𝗔𝗧𝗜𝗢𝗡 🌸 』 ===" +
+                        "=== 『 🌸 𝗧𝗵𝗼̂𝗻𝗴 𝗯𝗮́𝗼 𝘁𝘂̛̀ 𝗮𝗱𝗺𝗶𝗻 🌸 』 ===" +
                         "\n\n『⏱️』→ 𝗧𝗶𝗺𝗲: " + time + 
                         "\n『💬』→ 𝗠𝗲𝘀𝘀𝗮𝗴𝗲: " + body +
                         "\n『🔗』→ 𝗟𝗶𝗻𝗸:\n" + link
@@ -49,4 +49,5 @@ module.exports = function ({ api }) {
     catch(e) {
         console.log(`Đã xảy ra lỗi khi gửi thông báo: ${e}`)
     }
+
 }
